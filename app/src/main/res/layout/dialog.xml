@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/idproductEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="idproduct"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:layout_below="@+id/idproductEdit"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/priceEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="price"
+            android:layout_below="@+id/nameEdit"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/quantityEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="quantity"
+            android:layout_below="@+id/priceEdit"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/makerEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="maker"
+            android:layout_below="@+id/quantityEdit"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
